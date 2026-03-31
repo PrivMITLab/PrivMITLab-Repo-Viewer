@@ -1,302 +1,746 @@
 [
     {
-        "title": "Quantum Terraform",
-        "desc": "Zero-drift cloud infra with automated recovery.",
-        "usage": "tf-engine --deploy",
-        "benefits": ["99% Uptime", "Auto-Scaling"],
-        "tags": ["AWS", "Terraform"],
-        "category": "IaC",
-        "color": "0, 240, 254",
-        "status": "online",
-        "repo": "https://github.com/PrivMITLab/PrivMITLab-project-viewer",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
+        "title": "Project Viewer",
+        "desc": "Lightweight web app that renders a repository's file tree, file contents, commit metadata and an embedded live demo so users can inspect code and interact with the running app without cloning.",
+        "tagline": "Browse Code. Review Live. No Clone Required.",
+        "usage": "Paste a GitHub repo URL or select from examples → browse files, switch branches or commits → open the demo panel to interact with the deployed app. Use the share button to copy a permalink to the current view.",
+        "features": [
+            {
+                "name": "File Tree Browser",
+                "description": "Navigate repository structure instantly without cloning"
+            },
+            {
+                "name": "Code Viewer",
+                "description": "View file contents with syntax highlighting and formatting"
+            },
+            {
+                "name": "Commit History",
+                "description": "Inspect commit metadata, authors, dates, and file diffs"
+            },
+            {
+                "name": "Live Demo Panel",
+                "description": "Embedded live app preview for interactive testing"
+            },
+            {
+                "name": "Branch & Commit Switching",
+                "description": "Switch between branches and commits instantly"
+            },
+            {
+                "name": "Share Links",
+                "description": "Generate permalinks to specific files or commits for QA/reviews"
+            }
+        ],
+        "benefits": [
+            "No local clone required — preview any branch instantly",
+            "Side-by-side code and live demo for faster reviews",
+            "Inspect commit history and file diffs",
+            "Generate sharable links for QA/reviews"
+        ],
+        "tags": [
+            "GitHub",
+            "Repo Browser",
+            "Live Demo",
+            "Code Review",
+            "Open Source",
+            "Developer Tools"
+        ],
+        "category": "Web App",
+        "color": "0,150,255",
+        "status": "Always online — demo available",
+        "repo": "https://github.com/PrivMITLab/PrivMITLab-Repo-Viewer",
+        "demo": "https://privmitlab.github.io/PrivMITLab-Repo-Viewer/",
+        "useCase": "Perfect for code reviews, QA testing, onboarding, and sharing code without setup"
     },
     {
-        "title": "Nexus K8s Mesh",
-        "desc": "Service mesh with eBPF security inspection.",
-        "usage": "nexus install --namespace=core",
-        "benefits": ["mTLS Enabled", "eBPF"],
-        "tags": ["K8s", "Rust"],
-        "category": "Kubernetes",
-        "color": "168, 85, 247",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/nexus-k8s-mesh",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
+        "title": "Free API Encyclopedia",
+        "desc": "A curated directory of 212+ free public APIs featuring authentication details, rate limits, live demos (with CORS proxy), and ready-to-run examples in cURL, JavaScript, and Python.",
+        "tagline": "Discover APIs. Test Live. Code Ready.",
+        "usage": "Browse or search APIs → open an API page to see auth, rate limits, example requests and an embedded live demo → run examples via the CORS proxy or export/share the request for testing.",
+        "features": [
+            {
+                "name": "API Directory",
+                "description": "Curated collection of 212+ free public APIs"
+            },
+            {
+                "name": "Authentication Details",
+                "description": "Complete auth methods, API keys, and OAuth information"
+            },
+            {
+                "name": "Rate Limits",
+                "description": "Clear rate limiting information for each API"
+            },
+            {
+                "name": "Live Demo",
+                "description": "Interactive API testing with CORS proxy support"
+            },
+            {
+                "name": "Code Examples",
+                "description": "Ready-to-run examples in cURL, JavaScript, and Python"
+            },
+            {
+                "name": "Export & Share",
+                "description": "Export requests and share with team for collaboration"
+            }
+        ],
+        "benefits": [
+            "Accurate, curated API metadata for faster prototyping",
+            "Interactive live demos through a CORS proxy",
+            "Copy-ready examples in multiple languages",
+            "Export and share working requests for collaboration"
+        ],
+        "tags": [
+            "Public APIs",
+            "API Directory",
+            "CORS Proxy",
+            "Code Samples",
+            "Developer Resources",
+            "API Testing"
+        ],
+        "category": "Web App",
+        "color": "34,197,94",
+        "status": "Always online — demo available",
+        "repo": "https://github.com/PrivMITLab/Free-API-Encyclopedia",
+        "demo": "https://free-api-encyclopedia.vercel.app/",
+        "useCase": "Ideal for developers, students, and teams exploring APIs without local setup"
     },
     {
-        "title": "Aether CI/CD",
-        "desc": "ML-optimized build pipeline for microservices.",
-        "usage": "aether build ./src",
-        "benefits": ["Fast Cache", "ML-Build"],
-        "tags": ["Docker", "Python"],
-        "category": "Automation",
-        "color": "236, 72, 153",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/aether-cicd",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
+        "title": "PrivMITLab LifeLog",
+        "tagline": "Own Your Data. Track Your Life. Stay Private.",
+        "subtitle": "Privacy-First Student Daily Life & Study Tracker",
+        "desc": "A complete personal data management tool for students to log daily activities, track study sessions, write secure journal entries, and analyze progress — all while keeping data completely private and local to your device.",
+        "usage": "Open the app → log daily activities and mood → track study sessions with subjects and timestamps → write journal entries → view analytics dashboard → export data as JSON backup.",
+        "features": [
+            {
+                "name": "Daily Life Register",
+                "description": "Log activities, mood, and daily reflections with timestamps"
+            },
+            {
+                "name": "Study Tracker",
+                "description": "Track subjects studied, start/end times, and view detailed study analytics"
+            },
+            {
+                "name": "Journal (Jivani)",
+                "description": "Personal secure daily stories — write and store private journal entries locally"
+            },
+            {
+                "name": "Offline / Local Storage",
+                "description": "All data stays rigorously inside your browser using localStorage — no internet required"
+            },
+            {
+                "name": "JSON Import/Export",
+                "description": "Secure your local data via JSON file backups and restore on other devices"
+            },
+            {
+                "name": "Analytics Dashboard",
+                "description": "Daily study breakdowns, progress tracking, and trends over time with charts"
+            }
+        ],
+        "privacyPromise": {
+            "description": "This application contains:",
+            "guarantees": [
+                "NO CDNs",
+                "NO external API calls",
+                "NO remote fonts or tracking",
+                "Data NEVER leaves your device"
+            ]
+        },
+        "setup": {
+            "local": "Simply open index.html in your browser. All code runs locally.",
+            "deployment": "This project is production-ready for Vercel deployment without any build step required."
+        },
+        "links": {
+            "liveDemo": "https://hours-studied-today.vercel.app",
+            "repository": "https://github.com/PrivMITLab/Hours-Studied-Today.git"
+        },
+        "benefits": [
+            "Complete data ownership — everything stored locally",
+            "Zero setup required — open and use immediately",
+            "Perfect for students — track study time, mood, and progress",
+            "Offline capable — works without internet connection",
+            "Secure backups — export data as JSON files",
+            "No tracking or external calls — true privacy",
+            "Analytics-rich — visualize your daily patterns and study progress"
+        ],
+        "tags": [
+            "Privacy-First",
+            "Student Tracker",
+            "Study Logger",
+            "Daily Journal",
+            "Offline App",
+            "Local Storage",
+            "Data Privacy",
+            "Open Source",
+            "Personal Analytics"
+        ],
+        "category": "Web App",
+        "color": "139,92,246",
+        "status": "Always online — demo available",
+        "useCase": "Essential for students who want complete control over their personal data while tracking academics and daily life"
     },
     {
-        "title": "Titan SRE Monitor",
-        "desc": "Real-time anomaly detection for distributed systems.",
-        "usage": "titan-watch --alert",
-        "benefits": ["Predictive", "Low Latency"],
-        "tags": ["Grafana", "Go"],
-        "category": "Security",
-        "color": "34, 197, 94",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/titan-sre-monitor",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
+        "title": "PRIVACYCORE",
+        "tagline": "Offline Secure Toolkit v3.0",
+        "subtitle": "Zero-Knowledge Text & Security Tools",
+        "developer": "Sudhir Kumar • @PrivMITLab",
+        "desc": "A comprehensive offline privacy toolkit featuring text transformation, password generation, and encryption/encoding tools — all running locally in your browser with zero data collection.",
+        "usage": "Enter text in the input stream → select transformation (uppercase, lowercase, reverse, etc.) → configure repeat count and options → view output → copy results. Switch between tools using the toolbar: Text Repeater, Password Generator, Encoder/Secret.",
+        "features": [
+            {
+                "name": "Text Repeater",
+                "description": "Repeat, transform, and manipulate text with multiple options"
+            },
+            {
+                "name": "Text Transformations",
+                "description": "Convert to UPPERCASE, lowercase, REVERSE text, and clear input"
+            },
+            {
+                "name": "Find & Replace",
+                "description": "Search for text patterns and replace with custom strings"
+            },
+            {
+                "name": "Repeat Configuration",
+                "description": "Set repeat count, add new lines, and enable numbering"
+            },
+            {
+                "name": "Password Generator",
+                "description": "Generate secure random passwords with customizable length and character sets"
+            },
+            {
+                "name": "Encoder/Secret",
+                "description": "Encode and decode text using various cipher methods"
+            },
+            {
+                "name": "Input Stream",
+                "description": "Real-time character count and live text input tracking"
+            },
+            {
+                "name": "Output Panel",
+                "description": "View transformed results with copy-to-clipboard functionality"
+            }
+        ],
+        "tools": [
+            {
+                "name": "Text Repeater / Tools",
+                "description": "Transform and repeat text with uppercase, lowercase, reverse, find & replace"
+            },
+            {
+                "name": "PWD Generator",
+                "description": "Create secure random passwords with custom parameters"
+            },
+            {
+                "name": "Encoder/Secret",
+                "description": "Encrypt, encode, and decode sensitive text securely"
+            }
+        ],
+        "capabilities": [
+            "UPPER — Convert text to uppercase",
+            "LOWER — Convert text to lowercase",
+            "REVERSE — Reverse text order",
+            "CLEAR — Clear all input",
+            "Find & Replace — Search and replace text patterns",
+            "Repeat Text — Duplicate text with custom count",
+            "New Line — Add line breaks between repeats",
+            "Numbering — Number each repeated line",
+            "Blank Text — Remove or clean text"
+        ],
+        "benefits": [
+            "Complete offline functionality — no internet required",
+            "Zero-knowledge architecture — no data sent anywhere",
+            "All processing happens locally in your browser",
+            "No external APIs or tracking",
+            "Secure password generation",
+            "Multiple encoding/encryption options",
+            "Copy-to-clipboard for easy sharing",
+            "Real-time character counting",
+            "Simple, intuitive interface"
+        ],
+        "privacyPromise": {
+            "description": "PRIVACYCORE is built on zero-knowledge principles:",
+            "guarantees": [
+                "NO server-side processing",
+                "NO data transmission",
+                "NO tracking or analytics",
+                "NO external API calls",
+                "NO CDNs or remote resources",
+                "All computation happens locally in your browser"
+            ]
+        },
+        "tags": [
+            "Privacy-First",
+            "Text Tools",
+            "Password Generator",
+            "Encoder/Decoder",
+            "Offline App",
+            "Zero-Knowledge",
+            "Security Tools",
+            "Open Source",
+            "Developer Tools",
+            "Cryptography"
+        ],
+        "category": "Web App",
+        "color": "220,38,38",
+        "status": "Always online — demo available",
+        "repo": "https://github.com/PrivMITLab/PRIVACYCORE_Text",
+        "demo": "https://privmitlab.github.io/PRIVACYCORE_Text/",
+        "brand": "KeyForge Personal Brand",
+        "version": "3.0",
+        "useCase": "Perfect for developers, security professionals, and privacy-conscious users who need offline text transformation, password generation, and encoding tools without any cloud dependency"
     },
     {
-        "title": "Vortex Edge",
-        "desc": "Decentralized edge computing node manager.",
-        "usage": "vortex node join",
-        "benefits": ["5ms Latency", "Global"],
-        "tags": ["Edge", "NodeJS"],
-        "category": "IaC",
-        "color": "249, 115, 22",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/vortex-edge",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
+        "title": "PrivMITLab Code Leak Scanner",
+        "tagline": "Block Everything. Trust Nothing. Control Everything.",
+        "subtitle": "Privacy-First Secret Detection Tool",
+        "developer": "@PrivMITLab",
+        "desc": "A comprehensive privacy-first secret detection tool that scans code for accidentally exposed API keys, tokens, passwords, and sensitive data. 100% client-side processing with zero telemetry or data transmission.",
+        "usage": "Paste code, upload files, or drag & drop → click 'Scan' or use Ctrl+Enter → view detailed security report with severity levels → use quick fix suggestions to remediate issues → export results as JSON or TXT.",
+        "features": [
+            {
+                "name": "Secret Detection",
+                "description": "Detects 20+ types of sensitive information including API keys, tokens, private keys, and passwords"
+            },
+            {
+                "name": "Dark/Light Theme Toggle",
+                "description": "Comfortable viewing in any lighting condition with theme persistence"
+            },
+            {
+                "name": "Fully Responsive Design",
+                "description": "Optimized for desktop, tablet, and mobile devices"
+            },
+            {
+                "name": "Keyboard Shortcuts",
+                "description": "Efficient navigation with hotkeys (Ctrl+Enter to scan, Ctrl+K to clear, Ctrl+H for history)"
+            },
+            {
+                "name": "Scan History",
+                "description": "Session-based tracking of your last 10 scans with statistics and summaries"
+            },
+            {
+                "name": "Search & Filter",
+                "description": "Instantly find specific issues in scan results with advanced filtering"
+            },
+            {
+                "name": "Statistics Dashboard",
+                "description": "Visual risk distribution with progress bars and severity breakdown"
+            },
+            {
+                "name": "Full Screen Mode",
+                "description": "Distraction-free scanning experience for focused security reviews"
+            },
+            {
+                "name": "Quick Fix Suggestions",
+                "description": "Context-aware code examples to fix each security issue"
+            },
+            {
+                "name": "Code Sanitization",
+                "description": "Preview your code with secrets automatically redacted for safe sharing"
+            },
+            {
+                "name": "Copy to Clipboard",
+                "description": "One-click copy for code snippets and sanitized versions"
+            },
+            {
+                "name": "Multiple Export Options",
+                "description": "Download as JSON, TXT, or print directly with formatted reports"
+            },
+            {
+                "name": "Syntax Highlighting",
+                "description": "Detected secrets are highlighted in your code for easy identification"
+            },
+            {
+                "name": "Line Numbers",
+                "description": "Easy navigation to problematic lines in your code"
+            },
+            {
+                "name": "File Upload Support",
+                "description": "Support for .js, .ts, .py, .env, .json, .yaml, .java, .go, .cpp, and more"
+            }
+        ],
+        "detectionCapabilities": [
+            "Google AI API Keys",
+            "AWS Access Keys & Secret Keys",
+            "Private Key Blocks (RSA, EC, DSA, OpenSSH)",
+            "JWT Tokens",
+            "Bearer Authentication Tokens",
+            "Database Connection Strings",
+            "Slack Tokens",
+            "GitHub Tokens",
+            "Stripe API Keys",
+            "SendGrid API Keys",
+            "Twilio Tokens",
+            "Generic API Keys",
+            "Passwords and Secrets"
+        ],
+        "severityLevels": [
+            {
+                "level": "High",
+                "color": "Red",
+                "description": "Critical security risks (API keys, private keys, tokens)"
+            },
+            {
+                "level": "Medium",
+                "color": "Orange",
+                "description": "Potential exposures (passwords, connection strings)"
+            },
+            {
+                "level": "Low",
+                "color": "Yellow",
+                "description": "Informational findings (generic secrets)"
+            }
+        ],
+        "supportedFileTypes": [
+            {
+                "extension": ".js .jsx",
+                "description": "JavaScript / React"
+            },
+            {
+                "extension": ".ts .tsx",
+                "description": "TypeScript"
+            },
+            {
+                "extension": ".py",
+                "description": "Python"
+            },
+            {
+                "extension": ".env",
+                "description": "Environment files"
+            },
+            {
+                "extension": ".json",
+                "description": "JSON files"
+            },
+            {
+                "extension": ".yaml .yml",
+                "description": "YAML files"
+            },
+            {
+                "extension": ".java",
+                "description": "Java"
+            },
+            {
+                "extension": ".go",
+                "description": "Go"
+            },
+            {
+                "extension": ".cpp .c .h",
+                "description": "C/C++"
+            },
+            {
+                "extension": ".txt",
+                "description": "Plain text"
+            }
+        ],
+        "keyboardShortcuts": [
+            {
+                "shortcut": "Ctrl/Cmd + Enter",
+                "action": "Run scan"
+            },
+            {
+                "shortcut": "Ctrl/Cmd + K",
+                "action": "Clear all data"
+            },
+            {
+                "shortcut": "Ctrl/Cmd + H",
+                "action": "Toggle scan history"
+            },
+            {
+                "shortcut": "Ctrl/Cmd + /",
+                "action": "Show keyboard shortcuts help"
+            },
+            {
+                "shortcut": "Esc",
+                "action": "Close modals"
+            }
+        ],
+        "privacyPromise": {
+            "tagline": "Your code never leaves your browser.",
+            "description": "This tool is designed with privacy as its core principle:",
+            "whatWeDo": [
+                "Process code locally in browser",
+                "Generate detection patterns client-side",
+                "Store nothing permanently",
+                "Zero analytics",
+                "Open source transparency",
+                "All regex pattern matching in browser",
+                "No external network requests during scanning",
+                "No cookies or local storage of code",
+                "No third-party scripts or CDN dependencies"
+            ],
+            "whatWeDontDo": [
+                "Send code to external servers",
+                "Use cloud-based scanning APIs",
+                "Log or store your code",
+                "Include telemetry or tracking",
+                "Require API keys or registration",
+                "Make external API calls"
+            ]
+        },
+        "benefits": [
+            "100% client-side scanning — no server dependency",
+            "Zero data transmission — complete privacy guarantee",
+            "No telemetry or tracking — true offline tool",
+            "Open source — full transparency on how it works",
+            "Fast scanning — instant results on your device",
+            "Comprehensive detection — 20+ secret types covered",
+            "User-friendly interface — intuitive design for all skill levels",
+            "Multiple export formats — JSON, TXT, and print options",
+            "Keyboard shortcuts — power user efficiency",
+            "Session history — track your recent scans",
+            "Code sanitization — safe sharing of code examples",
+            "Multi-file support — scan multiple files at once"
+        ],
+        "tags": [
+            "Privacy-First",
+            "Secret Detection",
+            "Code Security",
+            "API Key Scanner",
+            "Offline Tool",
+            "Zero-Knowledge",
+            "Developer Tools",
+            "Open Source",
+            "Security",
+            "DevSecOps",
+            "Compliance"
+        ],
+        "category": "Web App",
+        "color": "230,68,60",
+        "status": "Always online — demo available",
+        "repo": "https://github.com/PrivMITLab/PrivMITLab-Code-Leak-Scanner",
+        "demo": "https://priv-mit-lab-code-leak-scanner.vercel.app/",
+        "version": "2.0",
+        "techStack": {
+            "frontend": "React",
+            "language": "TypeScript",
+            "styling": "Tailwind CSS",
+            "buildTool": "Vite"
+        },
+        "limits": {
+            "maxFileSize": "5MB per file",
+            "maxFiles": "10 files per scan"
+        },
+        "quickStart": [
+            "Visit the live demo at https://priv-mit-lab-code-leak-scanner.vercel.app/",
+            "Paste code or upload files",
+            "Click 'Scan' or press Ctrl+Enter",
+            "Review results with severity levels",
+            "Use quick fix suggestions to remediate",
+            "Export report as JSON or TXT"
+        ],
+        "localSetup": [
+            "git clone https://github.com/PrivMITLab/PrivMITLab-Code-Leak-Scanner.git",
+            "cd PrivMITLab-Code-Leak-Scanner",
+            "npm install",
+            "npm run dev",
+            "Open http://localhost:5173"
+        ],
+        "useCase": "Essential for developers, security teams, and DevOps engineers who need to prevent accidental credential leaks in source code without compromising privacy or requiring external services"
+    },{
+    "title": "PrivMITLab Privacy Toolkit",
+    "tagline": "Block Everything. Trust Nothing. Control Everything.",
+    "subtitle": "Complete Offline Privacy Utility Dashboard",
+    "developer": "@PrivMITLab",
+    "desc": "A comprehensive offline privacy utility dashboard featuring password generation, hashing, metadata removal, file encryption, and privacy scoring — all running 100% in your browser with zero server communication.",
+    "usage": "Open the toolkit → select a tool from the dashboard → enter your data or upload files → configure options as needed → view results or download encrypted/processed files → all processing happens locally on your device.",
+    "features": [
+        {
+            "name": "Password Generator",
+            "description": "Cryptographically secure random passwords using crypto.getRandomValues()",
+            "capabilities": [
+                "Adjustable length (6-64 characters)",
+                "Character type toggles (Uppercase, Lowercase, Numbers, Symbols)",
+                "Real-time strength meter",
+                "One-click copy to clipboard",
+                "Batch generation support"
+            ]
+        },
+        {
+            "name": "Hash Generator",
+            "description": "Generate cryptographic hashes from text or files",
+            "capabilities": [
+                "Supports MD5, SHA-1, SHA-256, SHA-512",
+                "Text input or file upload",
+                "Pure JavaScript MD5 + Web Crypto API",
+                "Real-time hash generation",
+                "Copy hash results instantly"
+            ]
+        },
+        {
+            "name": "Metadata Remover",
+            "description": "Remove sensitive metadata from images and documents",
+            "capabilities": [
+                "Removes EXIF data from JPG, PNG",
+                "Removes GPS coordinates and camera info",
+                "Works on PDF files",
+                "Clean file download with metadata stripped",
+                "Batch processing support"
+            ]
+        },
+        {
+            "name": "File Encryptor / Decryptor",
+            "description": "Secure file encryption and decryption with password protection",
+            "capabilities": [
+                "AES-256-GCM encryption using Web Crypto API",
+                "Password-based key derivation (PBKDF2)",
+                "Secure IV (Initialization Vector) generation",
+                "Encrypt files locally",
+                "Decrypt encrypted files with password",
+                "No file size limits"
+            ]
+        },
+        {
+            "name": "Privacy Score Scanner",
+            "description": "Analyze and visualize privacy risks for any website",
+            "capabilities": [
+                "Mock privacy analysis for educational purposes",
+                "Estimated tracker count estimation",
+                "Risk level classification (Low, Medium, High)",
+                "Privacy threat visualization",
+                "Educational demonstration tool"
+            ]
+        }
+    ],
+    "toolDetails": [
+        {
+            "tool": "Password Generator",
+            "icon": "🛡️",
+            "description": "Cryptographically secure random passwords",
+            "keyFeatures": [
+                "Uses crypto.getRandomValues() for true randomness",
+                "Length range: 6-64 characters",
+                "Toggle character types independently",
+                "Visual strength indicator",
+                "Instant clipboard copy"
+            ]
+        },
+        {
+            "tool": "Hash Generator",
+            "icon": "🔐",
+            "description": "Multiple hashing algorithm support",
+            "keyFeatures": [
+                "MD5, SHA-1, SHA-256, SHA-512",
+                "Text and file input modes",
+                "Hybrid approach: JS for MD5, Web Crypto for SHA",
+                "Real-time processing",
+                "Copy-ready hash output"
+            ]
+        },
+        {
+            "tool": "Metadata Remover",
+            "icon": "🧹",
+            "description": "Strip sensitive data from files",
+            "keyFeatures": [
+                "EXIF removal from JPG/PNG",
+                "GPS coordinate stripping",
+                "Camera information removal",
+                "PDF metadata cleaning",
+                "Safe file download"
+            ]
+        },
+        {
+            "tool": "File Encryptor/Decryptor",
+            "icon": "🔒",
+            "description": "Military-grade file encryption",
+            "keyFeatures": [
+                "AES-256-GCM encryption standard",
+                "PBKDF2 key derivation",
+                "Cryptographically secure IV",
+                "Password-protected files",
+                "Bidirectional encrypt/decrypt"
+            ]
+        },
+        {
+            "tool": "Privacy Score Scanner",
+            "icon": "📡",
+            "description": "Website privacy risk assessment",
+            "keyFeatures": [
+                "Tracker detection simulation",
+                "Risk level visualization",
+                "Privacy threat analysis",
+                "Educational resource",
+                "No actual data collection"
+            ]
+        }
+    ],
+    "privacyPromise": {
+        "tagline": "This toolkit runs entirely inside your browser. No data is uploaded or stored anywhere.",
+        "principles": [
+            "Zero telemetry — no analytics tracking",
+            "Zero external APIs — no server communication",
+            "Zero tracking — no cookies or identifiers",
+            "Zero data transmission — everything stays local",
+            "Everything runs locally — 100% client-side processing"
+        ],
+        "security": [
+            "Uses crypto.subtle for all encryption operations",
+            "Passwords never leave the browser",
+            "No file is uploaded to any server",
+            "All operations are sandboxed in browser context",
+            "Web Crypto API for cryptographic standards"
+        ]
     },
-    {
-        "title": "Sentinel Bot",
-        "desc": "Automated IAM remediation and security auditor.",
-        "usage": "sentinel scan --all",
-        "benefits": ["SOC2 Ready", "Auto-Fix"],
-        "tags": ["Security", "Python"],
-        "category": "Security",
-        "color": "239, 68, 68",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/sentinel-bot",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
+    "techStack": {
+        "frontend": "React 19",
+        "language": "TypeScript",
+        "buildTool": "Vite",
+        "styling": "Tailwind CSS",
+        "icons": "Lucide Icons",
+        "cryptography": "Web Crypto API"
     },
-    {
-        "title": "Obsidian Aggregator",
-        "desc": "Hyper-fast log aggregation for petabytes of data.",
-        "usage": "obsidian-log -f stream",
-        "benefits": ["Linear Scale", "Fast Query"],
-        "tags": ["C++", "ELK"],
-        "category": "Automation",
-        "color": "255, 255, 255",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/obsidian-aggregator",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Aurora DB Wrapper",
-        "desc": "Global ACID compliance for distributed DBs.",
-        "usage": "aurora init --nodes=5",
-        "benefits": ["Geo-Sync", "ACID"],
-        "tags": ["SQL", "Cloud"],
-        "category": "Kubernetes",
-        "color": "59, 130, 246",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/aurora-db-wrapper",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Hydra Load Balancer",
-        "desc": "L7 smart traffic manager with DDoS protection.",
-        "usage": "hydra start --config",
-        "benefits": ["DDoS Shield", "WAF"],
-        "tags": ["Nginx", "C"],
-        "category": "Security",
-        "color": "255, 215, 0",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/hydra-load-balancer",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Galactic Vault",
-        "desc": "Highly secure secret management with auto-rotation.",
-        "usage": "vault-gal auth --token",
-        "benefits": ["Auto-Rotate", "HSM"],
-        "tags": ["Security", "Hashi"],
-        "category": "Security",
-        "color": "127, 255, 0",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/galactic-vault",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Nebula Network",
-        "desc": "SDN controller for multi-cloud VPC peering.",
-        "usage": "nebula link vpc-1 vpc-2",
-        "benefits": ["Mesh VPC", "Zero Trust"],
-        "tags": ["Networking", "Go"],
-        "category": "IaC",
-        "color": "0, 255, 255",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/nebula-network",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Pulse Metrics",
-        "desc": "Sub-second metrics collection for high-frequency apps.",
-        "usage": "pulse-agent --start",
-        "benefits": ["High-Res", "Real-time"],
-        "tags": ["TSDB", "Rust"],
-        "category": "Automation",
-        "color": "255, 20, 147",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/pulse-metrics",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Cyber-Scan Jenkins",
-        "desc": "Security scanning plugin for Jenkins pipelines.",
-        "usage": "jenkins-scan --job=id",
-        "benefits": ["Shift-Left", "CVE"],
-        "tags": ["Jenkins", "Groovy"],
-        "category": "Automation",
-        "color": "0, 191, 255",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/cyber-scan-jenkins",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Mantle API Gateway",
-        "desc": "Lightweight API gateway with rate-limiting.",
-        "usage": "mantle up --port=80",
-        "benefits": ["Rate-Limit", "Auth"],
-        "tags": ["Envoy", "Lua"],
-        "category": "IaC",
-        "color": "138, 43, 226",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/mantle-api-gateway",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Ghost Backup",
-        "desc": "Invisible background backup for stateful K8s apps.",
-        "usage": "ghost-bk create --snap",
-        "benefits": ["Zero Impact", "S3 Sync"],
-        "tags": ["Storage", "BASH"],
-        "category": "Kubernetes",
-        "color": "255, 127, 80",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/ghost-backup",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Nova Docker Swarm",
-        "desc": "Next-gen cluster manager for small scale swarms.",
-        "usage": "nova swarm init",
-        "benefits": ["Lite-weight", "Fast"],
-        "tags": ["Docker", "Linux"],
-        "category": "Automation",
-        "color": "173, 216, 230",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/nova-docker-swarm",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Prism Grafana Lib",
-        "desc": "Pre-built dashboard library for DevOps teams.",
-        "usage": "prism import --dashboard",
-        "benefits": ["Out-of-box", "Pro-UI"],
-        "tags": ["Grafana", "JSON"],
-        "category": "Automation",
-        "color": "250, 128, 114",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/prism-grafana-lib",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Odin Ansible Roles",
-        "desc": "Curated secure roles for OS hardening.",
-        "usage": "ansible-galaxy install odin",
-        "benefits": ["CIS Bench", "Hardened"],
-        "tags": ["Ansible", "YAML"],
-        "category": "Security",
-        "color": "0, 255, 127",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/odin-ansible-roles",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Solar Flare CDN",
-        "desc": "Private CDN for internal enterprise asset delivery.",
-        "usage": "flare push assets/",
-        "benefits": ["In-House", "Private"],
-        "tags": ["CDN", "Python"],
-        "category": "IaC",
-        "color": "255, 140, 0",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/solar-flare-cdn",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Arcade Shell",
-        "desc": "Gamified terminal experience for SREs.",
-        "usage": "arcade-sh --login",
-        "benefits": ["Interactive", "Fun"],
-        "tags": ["Shell", "Rust"],
-        "category": "Automation",
-        "color": "0, 200, 100",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/arcade-shell",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Bio-Metric Auth API",
-        "desc": "Fingerprint/Face auth module for cloud apps.",
-        "usage": "bio-auth --verify",
-        "benefits": ["Passwordless", "Secure"],
-        "tags": ["API", "OAuth"],
-        "category": "Security",
-        "color": "218, 112, 214",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/bio-metric-auth-api",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Crypto-Locker Shield",
-        "desc": "Real-time ransomware detection for file systems.",
-        "usage": "shield --monitor /data",
-        "benefits": ["Heuristic", "AI-Scan"],
-        "tags": ["Security", "C++"],
-        "category": "Security",
-        "color": "255, 80, 80",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/crypto-locker-shield",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Zen-Auto CI",
-        "desc": "A peaceful, noise-free CI for focused developers.",
-        "usage": "zen ci start",
-        "benefits": ["No Noise", "Smart Alert"],
-        "tags": ["NodeJS", "YAML"],
-        "category": "Automation",
-        "color": "127, 255, 212",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/zen-auto-ci",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Titanium Registry",
-        "desc": "Secure OCI-compliant container image registry.",
-        "usage": "titan reg push",
-        "benefits": ["Immutable", "Signed"],
-        "tags": ["Registry", "Go"],
-        "category": "Kubernetes",
-        "color": "112, 128, 144",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/titanium-registry",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    },
-    {
-        "title": "Void Ops Dashboard",
-        "desc": "The central UI for all DevOps orchestration.",
-        "usage": "void-ui --open",
-        "benefits": ["Unified", "Modern"],
-        "tags": ["React", "WebGL"],
-        "category": "Kubernetes",
-        "color": "200, 200, 255",
-        "status": "online",
-        "repo": "https://github.com/privmitlab/void-ops-dashboard",
-        "demo": "https://privmitlab.github.io/PrivMITLab-project-viewer/"
-    }
+    "benefits": [
+        "100% offline functionality — no internet required",
+        "Zero-knowledge architecture — no data leaves your device",
+        "Multiple privacy tools in one dashboard",
+        "Military-grade encryption (AES-256-GCM)",
+        "Cryptographically secure operations",
+        "Instant processing — no server delays",
+        "No registration or authentication needed",
+        "Open source — full code transparency",
+        "Lightweight and fast",
+        "Works on any device with a modern browser",
+        "Educational value — learn about privacy tools",
+        "Batch processing capabilities"
+    ],
+    "tags": [
+        "Privacy-First",
+        "Password Generator",
+        "Encryption",
+        "Metadata Remover",
+        "Hash Generator",
+        "Offline Tool",
+        "Zero-Knowledge",
+        "Security Tools",
+        "Cryptography",
+        "Open Source",
+        "Developer Tools",
+        "Web Crypto API"
+    ],
+    "category": "Web App",
+    "color": "34,197,94",
+    "status": "Always online — demo available",
+    "repo": "https://github.com/PrivMITLab/PRIVMITLAB-PRIVACY-TOOLKIT",
+    "demo": "https://privmitlab-privacy-toolkit.vercel.app/",
+    "version": "1.0",
+    "quickStart": [
+        "Visit https://privmitlab-privacy-toolkit.vercel.app/",
+        "Select a tool from the dashboard",
+        "Enter text or upload files",
+        "Configure options (length, algorithm, etc.)",
+        "View results or download processed files",
+        "All processing happens locally — no data sent anywhere"
+    ],
+    "localSetup": [
+        "git clone https://github.com/PrivMITLab/PRIVMITLAB-PRIVACY-TOOLKIT.git",
+        "cd PRIVMITLAB-PRIVACY-TOOLKIT",
+        "npm install",
+        "npm run dev",
+        "Open http://localhost:5173"
+    ],
+    "buildAndDeploy": [
+        "npm run build",
+        "Output: optimized single-file with all assets inlined",
+        "Deploy to Vercel: Connect GitHub repository",
+        "Or deploy to any static hosting service"
+    ],
+    "useCase": "Perfect for security professionals, developers, privacy advocates, and anyone who needs offline cryptographic tools, password generation, file encryption, and metadata removal without any cloud dependency or privacy concerns"
+}
+
 ]
